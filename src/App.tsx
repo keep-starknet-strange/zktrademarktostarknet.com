@@ -12,27 +12,22 @@ const links: Link[] = [
     title: "Starknet Apps",
     url: "https://www.starknet.io/dapps/",
     description: "Explore the Starknet ecosystem"
-  },
-  {
-    title: "Tutorial on how to bridge from Solana to Starknet",
-    url: "https://x.com/0xAsta/status/1858891876457476550",
-    description: "A step-by-step guide to bridge your Solana assets to Starknet"
-  },
+  }
 ];
 
 const App = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       <header className="p-6 text-center">
-        <h1 className="text-4xl font-bold mb-4">Soylana Manlets</h1>
-        <p className="text-xl text-gray-300">Here's to the Soylana manlets, all you degens, artists, and developers.</p>
+        <h1 className="text-4xl font-bold mb-4">Based Enjoyers</h1>
+        <p className="text-xl text-gray-300">Here's to the Based enjoyers, all you degens, artists, and developers.</p>
       </header>
 
       <main className="max-w-4xl mx-auto px-4">
         <div className="flex justify-center items-center gap-12 my-16">
           <motion.img 
-            src="/solana-logo.png"
-            alt="Solana Logo"
+            src="/base-logo.png"
+            alt="Based Logo"
             className="w-24 h-24"
             animate={{ x: [0, 20], opacity: [1, 0.5] }}
             transition={{ repeat: Infinity, duration: 2, repeatType: "reverse" }}
@@ -51,11 +46,11 @@ const App = () => {
 
         <div className="text-center mb-16">
           <h2 className="text-2xl font-bold mb-4">The job is not finished;</h2>
-          <p className="text-xl text-starknet">now is time to join the STARK side and try Starknet.</p>
+          <p className="text-xl text-starknet">Get truly BASED on Starknet.</p>
         </div>
 
         <motion.a
-          href="https://layerswap.io/app"
+          href="https://orbiter.finance/?source=Base&dest=Starknet&token=ETH"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-4 p-8 mb-16 bg-starknet rounded-lg hover:bg-opacity-90 transition-colors mx-auto max-w-lg"
