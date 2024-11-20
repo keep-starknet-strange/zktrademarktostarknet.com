@@ -1,6 +1,6 @@
 # ManletToStarknet 🚀
 
-Convert those Solana manlets to Starknet chads.
+Convert those Solana manlets to [Starknet](https://starknet.io/) chads.
 
 ## Quick Start
 
