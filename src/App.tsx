@@ -12,7 +12,12 @@ const links: Link[] = [
     title: "Starknet Apps",
     url: "https://www.starknet.io/dapps/",
     description: "Explore the Starknet ecosystem"
-  }
+  },
+  {
+    title: "Tutorial on how to bridge from Solana to Starknet",
+    url: "https://x.com/0xAsta/status/1858891876457476550",
+    description: "A step-by-step guide to bridge your Solana assets to Starknet"
+  },
 ];
 
 const App = () => {
